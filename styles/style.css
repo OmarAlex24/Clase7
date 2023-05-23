@@ -1,8 +1,11 @@
-nav h1 {
+nav h1,
+body {
   margin: 0;
+  font-family: "Times New Roman", Times, serif;
 }
 .batman {
   background-color: #e6e6e6;
+  padding: 21px;
 }
 .titulo {
   background-color: #c4c4c4;
@@ -28,8 +31,14 @@ nav h1 {
   font-size: 35px;
 }
 .espaciado {
-  margin: 147px 0 0 0;
+  margin: 130px 0 0;
 }
 section > dl {
   margin-left: 24px;
+}
+h2 {
+  padding-left: 13px;
+}
+dd {
+  margin-bottom: 15px;
 }
