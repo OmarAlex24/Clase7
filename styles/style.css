@@ -1,0 +1,35 @@
+nav h1 {
+  margin: 0;
+}
+.batman {
+  background-color: #e6e6e6;
+}
+.titulo {
+  background-color: #c4c4c4;
+  color: #005677;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.footer {
+  background-color: #005677;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  height: 36px;
+}
+.footer p {
+  color: white;
+}
+.centrar {
+  text-align: center;
+}
+.principal {
+  font-size: 35px;
+}
+.espaciado {
+  margin: 147px 0 0 0;
+}
+section > dl {
+  margin-left: 24px;
+}
