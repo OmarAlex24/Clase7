@@ -1,3 +1,6 @@
+:root {
+  --accent-color: #005677;
+}
 nav h1,
 body {
   margin: 0;
@@ -9,36 +12,36 @@ body {
 }
 .titulo {
   background-color: #c4c4c4;
-  color: #005677;
+  color: var(--accent-color);
   letter-spacing: 10px;
   text-transform: uppercase;
   padding-left: 10px;
 }
 .footer {
-  background-color: #005677;
+  background-color: var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 26px;
   height: 36px;
-}
-.footer p {
   color: white;
 }
+
 .centrar {
   text-align: center;
   padding: 0;
 }
-.principal {
-  font-size: 35px;
-}
+
 .espaciado {
   margin: 120px 0 0;
 }
-.listas {
-  padding-left: 19px;
+
+dl {
+  margin-left: 26px;
 }
 dd {
-  margin-bottom: 15px;
-  margin-left: 78px;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 35px;
 }
